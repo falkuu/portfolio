@@ -1,0 +1,395 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    color: #fff;
+    font-family: 'General Sans';
+}
+
+/* @media (min-width:640px){
+    .first{
+        flex-direction: row;
+    }
+}
+@media (max-width:640px){
+    .first{
+        flex-direction: column;
+    }
+} */
+
+#main{
+    width: 100% ;
+    height: auto;
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 20px 30px; 
+}
+
+#navleft{
+    font-size: 40px;
+    font-family: 'Fuggles';
+    font-weight: 900;
+}
+
+#navright a{
+    text-decoration: none;
+}
+#navright a:link{
+    text-decoration: none;
+    color: #fff;
+}
+
+#navright a:visited{
+    text-decoration: none;
+    color: #fff;
+}
+
+#navright{
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+    padding-right: 50px;
+}
+
+#intro{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 2vw 5vw;
+    width: 100%;
+}
+
+#img img{
+    width: 110%;
+    height: auto;
+}
+
+
+
+#head img{
+    height: 100px;
+}
+
+#head {
+    display: flex;
+}
+
+#me {
+    padding: 7vw;
+    width: 50%;
+}
+
+#logo{
+    gap: 15px;
+}
+
+#logo img{
+    height: 40px;
+    margin-top: 15px;
+    padding-left: 8px;
+}
+
+#btn{
+    display: flex;
+    padding-top: 15px;
+    gap: 10px;  
+}
+#btn button{
+    height: 30px; 
+    width: 150px; 
+    font-size: 1.1em;
+    border-radius: 3cqh; 
+    background-color: rgb(55, 111, 231); 
+}
+
+.second{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 7vw;
+    padding: 4vw 4vw;
+    font-display: delay;
+}
+
+
+#skill h1{
+    font-family: 'Skranji';
+    font-size: 4rem;
+    font-weight: 900;
+    font-stretch: semi-expanded;
+    opacity: .9;
+    
+} 
+
+.grp1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+    width: 100%;
+    padding:  5vh 0;
+}
+
+.grp2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+    width: 100%;
+    padding:  5vh 0;
+}
+
+#skill1 img{
+    height: 100px;
+}
+
+.box1{
+    height: 20px;
+    width: 300px;
+    border: 3px solid white;
+}
+
+.boxani1{
+    height: 17px;
+    width: 295px;
+    background-color: #fff;
+    border: 3px solid white;
+    z-index: 9999;
+    animation-name: box1ani;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+    animation-play-state: paused;
+}
+
+.boxani1:hover{
+    -webkit-animation-play-state: running;
+}
+
+@keyframes box1ani{
+    from{
+        background-color: #000; width: 0px;
+    }
+    to{
+        background-color: #fff; width: 240px;
+    }
+}
+
+#skill2 img{
+    height: 100px;
+}
+
+.box2{
+    height: 20px;
+    width: 300px;
+    border: 3px solid white;
+}
+
+.boxani2{
+    height: 17px;
+    width: 295px;
+    background-color: #fff;
+    border: 3px solid white;
+    z-index: 9999;
+    animation-name: box2ani;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+    animation-play-state: paused;
+}
+
+.boxani2:hover{
+    -webkit-animation-play-state: running;
+}
+
+@keyframes box2ani{
+    from{
+        background-color: #000; width: 0px;
+    }
+    to{
+        background-color: #fff; width: 200px;
+    }
+}
+
+#skill3 img{
+    height: 100px;
+}
+
+.box3{
+    height: 20px;
+    width: 300px;
+    border: 3px solid white;
+}
+
+.boxani3{
+    height: 17px;
+    width: 295px;
+    background-color: #fff;
+    border: 3px solid white;
+    z-index: 9999;
+    animation-name: box3ani;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+    animation-play-state: paused;
+}
+
+.boxani3:hover{
+    -webkit-animation-play-state: running;
+}
+
+@keyframes box3ani{
+    from{
+        background-color: #000; width: 0px;
+    }
+    to{
+        background-color: #fff; width: 100px;
+    }
+}
+
+#skill4 img{
+    height: 100px;
+}
+
+.box4{
+    height: 20px;
+    width: 300px;
+    border: 3px solid white;
+}
+
+.boxani4{
+    height: 17px;
+    width: 295px;
+    background-color: #fff;
+    border: 3px solid white;
+    z-index: 9999;
+    animation-name: box4ani;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+    animation-play-state: paused;
+}
+
+.boxani4:hover{
+    -webkit-animation-play-state: running;
+}
+
+@keyframes box4ani{
+    from{
+        background-color: #000; width: 0px;
+    }
+    to{
+        background-color: #fff; width: 160px;
+    }
+}
+
+.third{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+    padding: 5vw;
+}
+
+#heading{
+    font-family: 'Skranji';
+    font-size: 3rem;
+    font-weight: 900;
+    font-stretch: semi-expanded;
+    opacity: .9;
+}
+
+.projects{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+    width: 100%;
+    padding:  5vh 0;
+}
+
+#project1{
+    width: 50%;
+    padding: 2vw;
+}
+
+#project2{
+    width: 50%;
+    padding: 2vw;
+}
+
+#project1 h1 , #project2 h1{
+    font-weight: 800;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    padding: 5rem;
+    padding-top: 2rem;
+    margin-bottom: 2vh;
+}
+
+.footer p{
+    color: #fff;
+    height: 1rem;
+    font-size: 1rem;
+}
+
+.footer a{
+    color: #fff;
+    font-size: 2rem;
+}
+
+#msg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+#msg img{
+    height: 20rem;
+    border-radius: 50%;
+    border: 4px solid white;
+}
+#msg h1{
+    font-family: 'Skranji';
+    font-size: 1.5rem;
+}
+
+#contact-me{
+    display: flex;
+    gap: 30px;
+}
+
+/* @media (min-width:640px){
+    #main{
+        flex-direction: row;
+    }
+}
+@media (max-width:640px){
+    #main{
+        flex-direction: column;
+    }
+} */
